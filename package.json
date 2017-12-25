@@ -2,9 +2,10 @@
   "name": "url-handler",
   "version": "0.1.0",
   "description": "deal with url",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "babel src -d lib -w",
+    "prepublish": "babel  src -d lib"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/helinjiang/url-handler/issues"
   },
-  "homepage": "https://github.com/helinjiang/url-handler#readme"
+  "homepage": "https://github.com/helinjiang/url-handler#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015-loose": "^8.0.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
