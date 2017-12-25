@@ -1,5 +1,5 @@
 {
-  "name": "url-handler",
+  "name": "url-handle",
   "version": "0.1.0",
   "description": "deal with url",
   "main": "lib/index.js",
