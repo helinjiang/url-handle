@@ -1,0 +1,22 @@
+{
+  "name": "url-handler",
+  "version": "0.1.0",
+  "description": "deal with url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helinjiang/url-handler.git"
+  },
+  "keywords": [
+    "url"
+  ],
+  "author": "helinjiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helinjiang/url-handler/issues"
+  },
+  "homepage": "https://github.com/helinjiang/url-handler#readme"
+}
