@@ -1,6 +1,6 @@
 {
   "name": "url-handle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "deal with url",
   "main": "lib/index.js",
   "scripts": {

@@ -45,7 +45,7 @@ export function param(obj) {
     for (var k in obj) {
         if (obj.hasOwnProperty(k)) {
             var v = typeof obj[k] !== 'undefined' ? obj[k] : '';
-            str.push(encodeURIComponent(k) + '=' + encodeURIComponent(JSON.stringify(v)));
+            str.push(encodeURIComponent(k) + '=' + encodeURIComponent(v));
         }
     }
 
